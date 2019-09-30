@@ -1,0 +1,380 @@
+/*
+theme Name: html5;
+Data:2019-09-30;
+Author: Mizzar Masoud;
+*/
+body{
+     background-image: url("https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+     color:black;
+     font-size: 90%; /*Fom the base font-size= 14px*/
+     font-family:arial,'Lucida Sans Unicode';
+     line-height: 1.5;
+     text-align: left;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+a{
+     text-decoration: none;
+}
+a:link, a:visited {color: #202441;} 
+
+a:hover, a:active{color: #505192;}
+
+.body{
+     margin: 10px auto;
+     width: 70%;
+     clear: both;
+
+}
+
+/*------------- MAIN HEADER ----------------*/
+
+.mainheader img {
+     width: 100%;
+     margin:auto ;
+     height: 500px;
+
+}
+.mainheader nav{
+     background-color: #692d55;
+     height: 40px;
+     border-radius: 5px;
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+
+}
+.mainheader nav ul {
+     text-align: center;
+     list-style: none;
+     margin: 0 auto;
+}
+.mainheader nav ul li {
+     display: inline;
+
+}
+.mainheader a:link, .mainheader a:visited {
+     color: silver;
+     padding: 10px 40px;
+     display: inline-block;
+     
+
+}
+.mainheader a:hover, .mainheader a:active {
+     color: white;
+     background-color: #505192;
+     
+
+}
+
+/*---------------- main contant -----------------*/
+
+.mainContent{
+     width: 70%;
+     float: left;
+}
+
+.top-content{
+     background-color: silver;
+     padding: 3%;
+     margin-top: 3%;  
+     border-radius: 5px;
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+
+
+ }
+
+.post-info{
+     font-size: 90%;
+     color:black;
+     font-family: 'Mansalva', cursive;
+     margin-top: auto;
+     
+    
+
+ }
+ .youtube{
+     width: 500px;
+     height: 250px;
+ }
+.post-content{
+     display: inline;
+
+ }
+#info{
+     font-size: 90%;
+     color:black;
+     font-style: italic;
+     margin-top: auto;
+     display: block;
+ }
+
+/*-------------------- said bar---------------*/
+
+.thesaidbar{
+     width: 24%;
+     margin: 2% 0 0 2%;
+     float:left;
+     padding: 2%;
+     background-color:slategrey;
+     border-radius: 5px;
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+
+}
+
+/* -------FOoter------- */
+
+.footer{
+     float: left;
+     margin-top: 20px;
+     width: 100%;
+     background-color: #692d55;
+     height: 60px;
+     border-radius: 5px;
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px; 
+}
+.footer p{
+     text-align: center;
+     color: white;
+     width: 90%;    
+}
+.post-img{
+     width: 100%;
+     margin: 30px auto;
+}
+figure{
+     margin: 25px 0;
+     font-size: 70%;
+     color:gray;
+}
+
+    /* ------------html03--------------------- */ 
+
+.boody{
+     margin: 10px auto;
+     width: 70%;
+     clear: both;
+}
+.mainheader2> nav{
+     background-color: #692d55;
+     height: 40px;
+     border-radius: 5px;
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     margin:8px;
+         
+}
+.mainheader2 nav ul {
+     text-align: center;
+     list-style: none;
+     margin: 0 auto;
+}
+.mainheader2 nav ul li {
+     display: inline;
+    
+}
+.mainheader2 a:link, .mainheader2 a:visited {
+     color: silver;
+     padding: 10px 40px;
+     display: inline-block;
+     height: 20px;
+    
+}
+.mainheader2 a:hover, .mainheader2 a:active {
+     color: white;
+     background-color: #505192;
+}
+  
+ /* ------------------------------------------------------------------------------- */
+
+.wrapper{
+     height: 100vh;
+     display: grid;
+     grid-template-columns:repeat (5, ifr);
+     grid-template-rows: repeat (5,ifr);
+     text-align: center ;
+        
+}
+.Turkey,.italy,.france,.sweden{
+     border: 2px #202441  solid;
+     background-position: center;
+            
+}
+h3{
+     background-color: silver;
+     padding: 1%;
+     margin-top: 2%; 
+     font-size: 15px;
+            
+}
+        
+.sweden{  
+     background-image: url(https://images.unsplash.com/photo-1509356843151-3e7d96241e11?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+     grid-column: 1/ 3;
+     grid-row: 1/ 3;
+           
+}
+.france{
+     background-image: url(https://images.unsplash.com/photo-1431274172761-fca41d930114?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+     grid-column: 3/ 5;
+     grid-row: 1/  3;
+}
+.Turkey{
+     background-image: url(https://images.unsplash.com/photo-1518084823714-2f59a7315a39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+     grid-column: 1/ 3;
+     grid-row: 3/  5;
+}
+.italy{
+     background-image: url(https://images.unsplash.com/photo-1514896856000-91cb6de818e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80);
+     grid-column: 3/ 5;
+     grid-row: 3/ 5;
+        
+}
+#info{
+            
+     background-image: url(https://images.unsplash.com/uploads/14114640960629b5c3fa0/116dc05a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+     padding: 3%;
+     margin-top: 3%;  
+     border-radius: 5px;
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     text-align: center;
+     color: #692d55;
+     font-family: 'Mansalva', cursive;
+     font-size: 20px;
+     background-position: center;
+}
+        
+.container{
+       border: 5px solid silver;
+       display: flex;
+       justify-content: space-around;
+       height: 30vh;
+       margin-top: 10px;
+       
+}
+.container > section{
+       width: 50px;
+      flex:1;
+      
+}
+.join{
+       background-color: #692d55;
+       color: white;
+       text-align: center;
+       font-family: 'Josefin Sans', sans-serif;
+       font-size: 40px;
+       
+}
+.offers{
+    background-color: #202441;
+    color: white;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+       
+}
+.invite{
+      background-color: #505192;
+      color: white;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+}
+h5{
+       margin-top: 70px;
+}
+.join-a:link, .join-a:visited {
+    color: white;
+}
+  
+     
+/*---------------- css for mobile--------------*/
+@media screen and (max-width:375px) {
+    .body{
+
+         width: 90%;
+         font-size: 95%;
+       
+    }
+    
+    .mainheader nav{
+        
+         height: 160px;
+       
+    
+    }
+    .mainheader ul{
+         width: 100%;
+         padding: 0;
+    } 
+ 
+    .mainheader nav ul li {
+         display: inline;
+    
+    }
+    .mainheader a:link, .mainheader a:visited {
+        
+         display: block;
+    
+    }
+    .mainheader a:hover, .mainheader a:active{
+         color: white;
+         background-color: #f58233;
+    }
+
+    .mainContent{
+         width: 100%;
+     
+    }
+    .thesaidbar{
+         width: 90%;
+         margin: 10px;
+    }
+    .youtube{
+         width: 290px;
+    }
+   
+    /* -------------------------- */
+    .boody{
+
+         width: 90%;
+         font-size: 85%;
+       
+    }
+    
+    .mainheader2 nav{
+        
+         height: 160px;
+       
+    
+    }
+    .mainheader2 ul{
+         width: 100%;
+         padding: 0;
+    }
+ 
+    .mainheader2 nav ul li {
+         display: inline;
+    
+    }
+    .mainheader2 a:link, .mainheader2 a:visited {
+        
+         display: block;
+    
+    }
+    .join,.offers,.invite{
+      
+         font-size: 100%;
+        
+       
+   
+    }
+  }
+
+    
+    
+  
