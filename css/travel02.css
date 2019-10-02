@@ -88,7 +88,8 @@ a:hover, a:active{color: #505192;}
 .post-info{
      font-size: 90%;
      color:black;
-     font-family: 'Mansalva', cursive;
+     font-family: 'Notable', sans-serif;
+
      margin-top: auto;
      
     
@@ -235,7 +236,7 @@ h3{
 }
 #info{
             
-     background-image: url(../img/info.jpg);
+     background-image: url(../img/i);
      padding: 3%;
      margin-top: 3%;  
      border-radius: 5px;
@@ -243,7 +244,7 @@ h3{
      -moz-border-radius: 5px;
      text-align: center;
      color: #692d55;
-     font-family: 'Mansalva', cursive;
+     font-family: 'Dancing Script', cursive;
      font-size: 20px;
      background-position: center;
 }
@@ -265,7 +266,7 @@ h3{
        background-color: #692d55;
        color: white;
        text-align: center;
-       font-family: 'Josefin Sans', sans-serif;
+       font-family: 'Pacifico', cursive;
        font-size: 40px;
        
 }
@@ -273,7 +274,7 @@ h3{
     background-color: #202441;
     color: white;
     text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
     font-size: 40px;
        
 }
@@ -281,7 +282,7 @@ h3{
       background-color: #505192;
       color: white;
     text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
     font-size: 40px;
 }
 h5{
